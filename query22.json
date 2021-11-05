@@ -1,0 +1,41 @@
+// agregacja
+db.people.aggregate([
+    {
+        $unwind: "$credit"
+    },
+    {
+        $group: {
+            _id: "$credit.currency",
+            money: {$sum: {$toDouble: "$credit.balance"}}
+        }
+    }
+])
+
+// map-reduce
+var map = function() {
+    for (var i = 0; i < this.credit.length; i++) {
+       var key = this.credit[i].currency;
+       var value = { balance: parseFloat(this.credit[i].balance) };
+       emit(key, value);
+    }
+}
+
+var reduce = function(key, values) {
+    reducedValue = {
+        money: 0
+    };
+
+    for(var i = 0; i < values.length; i++) {
+        reducedValue.money += values[i].balance;
+    }
+
+    return reducedValue;
+}
+
+db.people.mapReduce(
+    map,
+    reduce,
+    {
+        out: "map_reduce_currency"
+    }
+)
