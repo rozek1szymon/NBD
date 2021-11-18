@@ -1,0 +1,76 @@
+[
+  {
+    "_id": {"$oid": "61848337a3248c429e13408b"},
+    "birth_date": "2011-01-29T02:43:19Z",
+    "credit": [
+      {
+        "type": "jcb",
+        "number": "201810476188726",
+        "currency": "HNL",
+        "balance": "6950.39"
+      },
+      {
+        "type": "mastercard",
+        "number": "201995576146342",
+        "currency": "AFN",
+        "balance": "5442.17"
+      },
+      {
+        "type": "jcb",
+        "number": "201552864013351",
+        "currency": "IDR",
+        "balance": "4714.67"
+      },
+      {
+        "type": "jcb",
+        "number": "5048378285089879",
+        "currency": "CNY",
+        "balance": "5803.17"
+      }
+    ],
+    "description": "proin interdum mauris non ligula pellentesque ultrices phasellus id sapien in sapien iaculis congue vivamus",
+    "email": "gwallace1gl@zimbio.com",
+    "first_name": "Gary",
+    "height": "171.54",
+    "job": "VP Quality Control",
+    "last_name": "Wallace",
+    "location": {
+      "city": "Moskwa",
+      "address": {
+        "streetname": "Goodland",
+        "streetnumber": "84"
+      }
+    },
+    "nationality": "Russia",
+    "sex": "Male",
+    "weight": "68.32"
+  },
+  {
+    "_id": {"$oid": "61848337a3248c429e135268"},
+    "birth_date": "1997-07-27T06:21:11Z",
+    "credit": [
+      {
+        "type": "jcb",
+        "number": "374622993012797",
+        "currency": "CAD",
+        "balance": "4829.62"
+      }
+    ],
+    "description": "primis in faucibus orci luctus et ultrices posuere cubilia curae duis faucibus",
+    "email": "grogers4zp@va.gov",
+    "first_name": "George",
+    "height": "155.8",
+    "job": "Accounting Assistant I",
+    "last_name": "Rogers",
+    "location": {
+      "city": "Moskwa",
+      "address": {
+        "streetname": "Twin Pines",
+        "streetnumber": "32651"
+      }
+    },
+    "nationality": "Russia",
+    "sex": "Male",
+    "weight": "63.84"
+  }
+]

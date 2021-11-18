@@ -1,0 +1,30 @@
+[
+  {
+    "_id": {"$oid": "61848337a3248c429e133922"},
+    "birth_date": "1990-02-21T02:55:03Z",
+    "credit": [
+      {
+        "type": "switch",
+        "number": "6759888939100098699",
+        "currency": "COP",
+        "balance": "5117.06"
+      }
+    ],
+    "description": "vulputate justo in blandit ultrices enim lorem ipsum dolor sit amet consectetuer adipiscing elit proin interdum mauris",
+    "email": "wfields0@diigo.com",
+    "first_name": "Wayne",
+    "height": "152.38",
+    "job": "Speech Pathologist",
+    "last_name": "Fields",
+    "location": {
+      "city": "Oyo",
+      "address": {
+        "streetname": "Beilfuss",
+        "streetnumber": "860"
+      }
+    },
+    "nationality": "Nigeria",
+    "sex": "Male",
+    "weight": "66.81"
+  }
+]

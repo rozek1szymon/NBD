@@ -1,0 +1,20 @@
+db.people.insertOne(
+{ sex: 'Male',
+  first_name: 'Sajmon',
+  last_name: 'Rozko',
+  job: 'IT DEV',
+  email: 'gg.gg',
+  location:
+   { city: 'Wawa',
+     address: { streetname: 'Alla', streetnumber: '12' } },
+  description: 'pracuje robi daje bierzer',
+  height: '100',
+  weight: '84.30',
+  birth_date: '2001-05-19T07:32:08Z',
+  nationality: 'Poland',
+  credit:
+   [ { type: 'switch',
+       number: '123123123123',
+       currency: 'EUR',
+       balance: '12312312' } ] }
+)

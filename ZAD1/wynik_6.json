@@ -1,0 +1,31 @@
+
+[
+  {
+    "_id": {"$oid": "61854d2fc48b863af4a74ef5"},
+    "birth_date": "2001-05-19T07:32:08Z",
+    "credit": [
+      {
+        "type": "switch",
+        "number": "123123123123",
+        "currency": "EUR",
+        "balance": "12312312"
+      }
+    ],
+    "description": "pracuje robi daje bierzer",
+    "email": "gg.gg",
+    "first_name": "Sajmon",
+    "height": "100",
+    "job": "IT DEV",
+    "last_name": "Rozko",
+    "location": {
+      "city": "Wawa",
+      "address": {
+        "streetname": "Alla",
+        "streetnumber": "12"
+      }
+    },
+    "nationality": "Poland",
+    "sex": "Male",
+    "weight": "84.30"
+  }
+]

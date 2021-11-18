@@ -1,0 +1,82 @@
+[
+  {
+    "_id": {"$oid": "61848337a3248c429e133923"},
+    "first_name": "Anthony",
+    "last_name": "Nichols",
+    "location": {
+      "city": "Jepuro"
+    }
+  },
+  {
+    "_id": {"$oid": "61848337a3248c429e133929"},
+    "first_name": "Ernest",
+    "last_name": "Ortiz",
+    "location": {
+      "city": "Zhongcheng"
+    }
+  },
+  {
+    "_id": {"$oid": "61848337a3248c429e133931"},
+    "first_name": "Ralph",
+    "last_name": "Austin",
+    "location": {
+      "city": "Povorino"
+    }
+  },
+  {
+    "_id": {"$oid": "61848337a3248c429e133936"},
+    "first_name": "Gregory",
+    "last_name": "Anderson",
+    "location": {
+      "city": "Caminaca"
+    }
+  },
+  {
+    "_id": {"$oid": "61848337a3248c429e133937"},
+    "first_name": "Brenda",
+    "last_name": "Gonzalez",
+    "location": {
+      "city": "Glagahan"
+    }
+  },
+  {
+    "_id": {"$oid": "61848337a3248c429e133943"},
+    "first_name": "Virginia",
+    "last_name": "Chapman",
+    "location": {
+      "city": "Huangling"
+    }
+  },
+  {
+    "_id": {"$oid": "61848337a3248c429e133945"},
+    "first_name": "Paula",
+    "last_name": "Hunt",
+    "location": {
+      "city": "Vsevolozhsk"
+    }
+  },
+  {
+    "_id": {"$oid": "61848337a3248c429e13394b"},
+    "first_name": "Steve",
+    "last_name": "Olson",
+    "location": {
+      "city": "Santa Cruz"
+    }
+  },
+  {
+    "_id": {"$oid": "61848337a3248c429e13394e"},
+    "first_name": "Anthony",
+    "last_name": "Wood",
+    "location": {
+      "city": "Donghe"
+    }
+  },
+  {
+    "_id": {"$oid": "61848337a3248c429e13395b"},
+    "first_name": "Jacqueline",
+    "last_name": "Morgan",
+    "location": {
+      "city": "Gränna"
+    }
+  }
+]
