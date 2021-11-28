@@ -1,0 +1,33 @@
+1.
+curl -i -X PUT http://localhost:8098/buckets/s24065/keys/1 -H 'Content-Type: application/json' -d '{"name": "Szymon", "lastname": "Kowal", "birth": 1998, "secondname": "Zbyszek", "id": 1}'
+curl -i -X PUT http://localhost:8098/buckets/s24065/keys/2 -H 'Content-Type: application/json' -d '{"name": "Andrzej", "lastname": "Pies", "birth": 1978, "secondname": "Czesiek", "id": 2}'
+curl -i -X PUT http://localhost:8098/buckets/s24065/keys/3 -H 'Content-Type: application/json' -d '{"name": "Karol", "lastname": "Panek", "birth": 1999, "secondname": "Jan", "id": 3}'
+curl -i -X PUT http://localhost:8098/buckets/s24065/keys/4 -H 'Content-Type: application/json' -d '{"name": "Zenek", "lastname": "Rozek", "birth": 2002, "secondname": "Kuba", "id": 4}'
+curl -i -X PUT http://localhost:8098/buckets/s24065/keys/5 -H 'Content-Type: application/json' -d '{"name": "Kacper", "lastname": "Ibel", "birth": 1954, "secondname": "Jedrek", "id": 5}'
+
+2.
+curl -i http://localhost:8098/buckets/s24065/keys/1
+
+3.
+curl -i -X PUT http://localhost:8098/buckets/s24065/keys/5 -H 'Content-Type: application/json' -d '{"name": "Kacper", "lastname": "Ibel", "birth": 1954, "secondname": "Jedrek", "id": 5, "eyescolor": "red"}'
+
+4.
+curl -i -X PUT http://localhost:8098/buckets/s24065/keys/4 -H 'Content-Type: application/json' -d '{"name": "Zenek", "lastname": "Rozek", "birth": 2002, "secondname": "Kuba"}'
+
+5.
+curl -i -X PUT http://localhost:8098/buckets/s24065/keys/3 -H 'Content-Type: application/json' -d '{"name": "Karol", "lastname": "Panek", "birth": 1966, "secondname": "Jan", "id": 3}'
+
+6.
+curl -i -X DELETE http://localhost:8098/buckets/s24065/keys/2
+
+7.
+curl -i http://localhost:8098/buckets/s24065/keys/2
+
+8.
+curl -i -X POST http://localhost:8098/buckets/s24065/keys -H 'Content-Type: application/json' -d '{"name": "Pusciak"}'
+
+9.
+curl -i http://localhost:8098/buckets/s24065/keys/Jvj8WW7kj0KXGPpwZtmD5WBRvs6
+
+10.
+curl -i -X DELETE http://localhost:8098/buckets/s24065/keys/Jvj8WW7kj0KXGPpwZtmD5WBRvs6

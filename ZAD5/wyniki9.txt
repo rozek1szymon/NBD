@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvledYKAIEUpkzGNlkJ8vepsvCwA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s24065>; rel="up"
+Last-Modified: Fri, 26 Nov 2021 18:10:39 GMT
+ETag: "3D7bnkeRZeA7o55rNOIcv7"
+Date: Fri, 26 Nov 2021 18:11:29 GMT
+Content-Type: application/json
+Content-Length: 19
+
+{"name": "Pusciak"}

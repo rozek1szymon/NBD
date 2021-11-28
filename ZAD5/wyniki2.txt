@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvlftO34CIpTInsfKkDNb9DZfFgA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s24065>; rel="up"
+Last-Modified: Fri, 26 Nov 2021 17:54:52 GMT
+ETag: "4YLmRdWj77HEOVeeEJiPKc"
+Date: Fri, 26 Nov 2021 17:56:38 GMT
+Content-Type: application/json
+Content-Length: 88
+
+{"name": "Szymon", "lastname": "Kowal", "birth": 1998, "secondname": "Zbyszek", "id": 1}
