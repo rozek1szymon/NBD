@@ -1,0 +1,15 @@
+Add person.
+person added.
+Get person from bucket.
+person from bucket: {"id": "1", "name": "Szymon", "surname": "Kolos", "age": 21, "eyescolor": "green"}
+Edit person - change name and surname.
+Update person.
+person updated.
+Get person from bucket.
+person from bucket: {"id": "1", "name": "Kuba", "surname": "Fasola", "age": 21, "eyescolor": "green"}
+Delete person.
+person deleted.
+Get person from bucket.
+Deleted person from bucket:
+None
+
